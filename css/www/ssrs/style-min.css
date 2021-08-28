@@ -1,0 +1,1 @@
+.loading{height:100vh;width:100vw;position:fixed;background-color:#000000;}.logo{height:300px;width:300px;position:relative;left:calc(50vw - 150px);top:calc(50vh - 150px);background-image:url(/img/www/ssrs/logo.webp);}.loading::before{content:'nii';}

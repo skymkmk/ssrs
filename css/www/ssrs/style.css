@@ -1,0 +1,94 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+#loading {
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: #000000;
+    z-index: 1000;
+}
+
+.logo {
+    height: 300px;
+    width: 300px;
+    position: relative;
+    left: calc(50vw - 150px);
+    top: calc(50vh - 150px);
+    background-image: url(../../../img/www-ssrs-logo.webp);
+}
+
+#pop-up {
+    position: absolute;
+    top: 50vh;
+    height: 5px;
+    background: #ffffff;
+    animation: line-in 1s 2s forwards;
+}
+
+#body {
+    display: none;
+    opacity: 0%;
+}
+
+@keyframes line-in {
+    0% {
+        width: 0;
+        height: 5px;
+        top: 50vh;
+    }
+    50% {
+        width: 100vw;
+        height: 5px;
+        top: 50vh;
+    }
+    100%{
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+    }
+}
+
+.navbar-background {
+    background-color: #ffffff;
+    transition: all 0.5s;
+}
+
+.navBrand {
+    filter: invert(100%);
+    transition: all 0.5s;
+}
+
+.nav-divider {
+    border-top:1px solid rgba(255,255,255,.15)
+}
+
+.home-mask {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.home-title {
+    font-size: 10rem;
+}
+
+.home-subtitle {
+    font-size: 1.6rem;
+}
+
+.row-center {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (max-width:576px) {
+    .home-title {
+        font-size: 8rem;
+    }
+}
