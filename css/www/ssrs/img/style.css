@@ -1,0 +1,18 @@
+.navBrand {
+    filter: invert(100%);
+    transition: all 0.5s;
+}
+.row-center {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-img {
+    border-radius: 10px;
+}

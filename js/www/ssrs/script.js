@@ -25,10 +25,9 @@ function displayBody() {
     body.style.display="block"
     loading.style.transition = "all 1s";
     loading.style.opacity = 0;
-    // body.classList.add("show-body");
     body.style.transition = "all 1s";
     body.style.opacity = 1;
-    setTimeout("loading.style.display=\"none\"",2000);
+    setTimeout("loading.style.display=\"none\"",3000);
 }
 popUp.addEventListener("animationend", displayBody);
 setInterval("navbarBackground()",100);

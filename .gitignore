@@ -1,3 +1,5 @@
 .DS_Store
 img/*
 video/*
+!img/index.html
+!img/index-min.html

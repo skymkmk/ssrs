@@ -1,0 +1,24 @@
+.navBrand {
+    filter: invert(100%);
+    transition: all 0.5s;
+}
+
+.fullscreen {
+    height: 100vh;
+}
+
+.news-container {
+    width: 100vw;
+    height: calc(100vh - 152px);
+}
+
+.news-page {
+    height: calc(100vh - 152px - 3rem);
+}
+
+.row-center {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
